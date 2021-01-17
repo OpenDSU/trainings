@@ -16,5 +16,5 @@ function SpellFactory(spell){
 let abraCadabra = new SpellFactory("abradacabra");
 
 abraCadabra.spell();
-abraCadabra.changeSpell("booo");
+abraCadabra.changeSpell(new Error("boo...."));
 abraCadabra.spell();
